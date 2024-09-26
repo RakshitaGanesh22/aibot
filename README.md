@@ -12,7 +12,7 @@ This project is a ReactJS web application that allows users to chat with an AI m
 - [Usage](#usage)
 
 
-## Features
+## Featuress
 
 - Chat with an AI model using pre-defined questions.
 - Like/Dislike AI responses with thumbs up/thumbs down buttons.
