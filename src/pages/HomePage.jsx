@@ -11,6 +11,6 @@ export default function Home(){
             <BotUi />
             <InitialQus />
         </Box>
-    </Box>)
+    </Box>)//box
     
 }
