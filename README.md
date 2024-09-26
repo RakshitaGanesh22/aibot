@@ -1,10 +1,41 @@
-# Getting Started with Create React App
+# AI Bot Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
 
-## Available Scripts
+This project is a ReactJS web application that allows users to chat with an AI model. The user can provide feedback on the AI's responses through a rating system and subjective comments. The chat history is saved, allowing users to revisit past conversations and their feedback.
 
-In the project directory, you can run:
+## Table of Contents
+
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+
+
+## Features
+
+- Chat with an AI model using pre-defined questions.
+- Like/Dislike AI responses with thumbs up/thumbs down buttons.
+- Rate the conversation on a scale of 1 to 5 stars.
+- Provide subjective feedback at the end of the conversation.
+- View past conversations with feedback.
+- Filter feedback based on ratings.
+- Light/Dark mode toggle.
+
+## Technologies Used
+
+- ReactJS
+- Material-UI
+- JSON (for mocking AI responses)
+- (Any other libraries you used)
+-css (for styling)
+- JavaScript (for logic)
+- Node.js (for running the application)
+-HTML (for rendering UI)
+
+## Installation
+
+To run this project locally, follow these steps:
 
 ### `npm start`
 

@@ -2,13 +2,18 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+import { ModeProvider } from "./themeprovider/themeContext.jsx"; // Make sure this path is correct
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
 root.render(
+  <ModeProvider>
   <React.StrictMode>
     <App />
   </React.StrictMode>
+</ModeProvider>
+
 );
 
 // If you want to start measuring performance in your app, pass a function
